@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raya Sergieva — Business Card</title>
+<meta name="description" content="Raya Sergieva · Full-Stack Developer · rayasergieva.dev">
+
+<!-- Social share preview -->
+<meta property="og:title" content="Raya Sergieva — Full-Stack Developer">
+<meta property="og:description" content="Tap the card to flip. rayasergieva.dev">
+<meta property="og:image" content="photo.png">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="qr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="card" id="card" role="button" tabindex="0" aria-label="Business card. Activate to flip.">
+
+      <!-- FRONT -->
+      <div class="face front">
+        <div class="bg"></div>
+        <div class="blob" style="background:linear-gradient(135deg,#FFD08A,#FFC93C);right:30%;top:-9%;width:13%;aspect-ratio:1;"></div>
+        <div class="blob" style="background:var(--lav);left:-5%;bottom:-9%;width:18%;aspect-ratio:1;opacity:.55;"></div>
+        <div class="blob" style="background:var(--coral);left:50%;bottom:-7%;width:9%;aspect-ratio:1;opacity:.5;"></div>
+        <div class="photo"><img src="photo.png" alt="Raya Sergieva"></div>
+        <div class="content">
+          <div class="kick">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.7 6.3L20 10l-6.3 1.7L12 18l-1.7-6.3L4 10l6.3-1.7z"/></svg>
+            Hi, I'm
+          </div>
+          <div class="name">Raya<br><span class="grad-text">Sergieva</span></div>
+          <div class="rule">
+            <span style="background:var(--coral)"></span>
+            <span style="background:var(--lav)"></span>
+            <span style="background:var(--cyan)"></span>
+          </div>
+          <div class="role"><span class="rdot"></span> Full-Stack Developer</div>
+          <div class="fic">
+            <span class="chip" style="background:var(--i1)"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg></span>
+            <span class="fweb">rayasergieva.dev</span>
+            <span class="chip" style="background:var(--i2)"><svg viewBox="0 0 24 24" fill="#fff"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21H17.6v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9z"/></svg></span>
+            <span class="chip" style="background:var(--i3)"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACK -->
+      <div class="face back back-face">
+        <div class="bg"></div>
+        <div class="blob" style="background:linear-gradient(135deg,#FFD08A,#FFC93C);right:-7%;top:-9%;width:24%;aspect-ratio:1;opacity:.9;"></div>
+        <div class="blob" style="background:var(--cyan);left:-5%;bottom:-8%;width:18%;aspect-ratio:1;opacity:.5;"></div>
+        <div class="blob" style="background:var(--lav);left:24%;top:-5%;width:9%;aspect-ratio:1;opacity:.55;"></div>
+        <div class="bwrap">
+          <div class="bleft">
+            <div class="bname">Raya Sergieva</div>
+            <div class="brule">
+              <span style="background:var(--coral)"></span>
+              <span style="background:var(--lav)"></span>
+              <span style="background:var(--cyan)"></span>
+            </div>
+            <div class="brole">Full-Stack Developer</div>
+            <div class="rows">
+              <a class="row" href="https://rayasergieva.dev" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                <span class="chip" style="background:var(--i1)"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg></span>
+                rayasergieva.dev
+              </a>
+              <a class="row" href="https://linkedin.com/in/raya-sergieva" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                <span class="chip" style="background:var(--i2)"><svg viewBox="0 0 24 24" fill="#fff"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21H17.6v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9z"/></svg></span>
+                in/raya-sergieva
+              </a>
+              <div class="row">
+                <span class="chip" style="background:var(--i3)"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+                Sofia, Bulgaria
+              </div>
+            </div>
+          </div>
+          <div class="qrtile">
+            <div class="qrbox"><img src="qr.png" alt="QR code to rayasergieva.dev"></div>
+            <div class="qrcap">Scan to view</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hint">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11V6a2 2 0 1 1 4 0v5"/><path d="M13 7a2 2 0 1 1 4 0v4"/><path d="M17 9a2 2 0 1 1 4 0v5a7 7 0 0 1-7 7h-1a8 8 0 0 1-5.66-2.34l-3.4-3.4a2 2 0 0 1 2.83-2.83L9 14"/></svg>
+    <span id="hinttext">Click the card to flip</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
